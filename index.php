@@ -1,3 +1,5 @@
 <?php
-// Mengarahkan semua request ke file utama Anda di root
-require __DIR__ . '/../index.php';
+// Mengarahkan pengguna langsung ke halaman login
+header("Location: login.php");
+exit();
+?>
